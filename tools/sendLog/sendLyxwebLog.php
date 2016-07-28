@@ -5,7 +5,7 @@ $ftp_server = '';        //--填上自己的ftp ip
 $ftp_user = '';          //--填上自己的ftp用户名
 $ftp_pwd = '';           //--填上自己的ftp密码
 $title = 'lyxweb日志';
-$recipient = 'laiyouxi-seo@laiyouxi.com';
+$recipient = '';         //--填上收信人的邮箱地址
 $content = '今天份的日志，请收下....';
 
 $conn_id = ftp_connect($ftp_server) or die("Couldn't connect to $ftp_server"); 
