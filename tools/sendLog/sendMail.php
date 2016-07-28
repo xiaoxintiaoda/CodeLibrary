@@ -15,7 +15,7 @@ class Mail{
     }
 
     public  function sendMail($recipient,$title,$content,$file,$name='myy'){
-        $this->mail->setFrom('deng@laiyouxi.com','╮(╯_╰)╭');            // setFrom  
+        $this->mail->setFrom('','╮(╯_╰)╭');            // setFrom  
         $this->mail->addAddress($recipient,$name);                          // Add a recipient
         $this->mail->isHTML(true);                                          // Set email format to HTML
         $this->mail->Subject = $title;
